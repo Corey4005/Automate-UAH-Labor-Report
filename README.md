@@ -15,7 +15,7 @@ To Create a Virtual Environment:
 ```
 $ conda create -n yourenvname
 ```
-To Install the Necessrry Packages:
+To Install the Necessary Packages on Root or Virtual Environment:
 
 ```
 $ pip install -r requirements.txt
