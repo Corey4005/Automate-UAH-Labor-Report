@@ -26,10 +26,10 @@ Open the [text file](./edit-this-text-file.txt) in your local directory and repl
 
 ### Template *Before Edits:*
 
-[Template Before Edits](./images-for-read-me/Template.png)
+![Template Before Edits](./images-for-read-me/Template.PNG)
 
 ### Template *After Edits*
-[Template Edits](./images-for-read-me/Template-Edit.png)
+![Template Edits](./images-for-read-me/Template-Edit.PNG)
 
 Save the template edits and navigate to the script file in your terminal. After run the script and input the information that is prompted to you: 
 
