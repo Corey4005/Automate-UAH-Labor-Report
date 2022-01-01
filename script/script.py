@@ -1,7 +1,7 @@
 from openpyxl import load_workbook
 from datetime import date
 
-input_file = '../excel-input-data/Labor Report 2022.xlsx'
+input_file = '../excel-data/Labor-Report-2022.xlsx'
 input_text_file = '../edit-this-text-file.txt'
 
 #create the dictionary container for the values in edited input text file
@@ -46,6 +46,6 @@ ws['D30'] = signature
 ws['R30'] = date.today().strftime('%d/%m/%y')
         
 #save wb to outputfile location
-output_file = '../excel-input-data/Labor Report 2022.xlsx'
+output_file = '../excel-data/Labor-Report-2022.xlsx'
 
 wb.save(output_file)
