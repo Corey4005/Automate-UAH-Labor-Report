@@ -5,7 +5,7 @@ This is a simple shell script to make filling out the UAH labor report easier. T
 First, open a terminal window in [*Anaconda Prompt*](https://docs.anaconda.com/anaconda/install/windows/) and cd to a directory where you would like the files from this repository to be stored. Then, clone the repository using the following command:
 
 ```bash
-$ git clone https://github.com/Corey4005/Automate-UAH-Labor-Report.git
+git clone https://github.com/Corey4005/Automate-UAH-Labor-Report.git
 ```
 After, install the packages needed for this project by using the [requirements.txt](./requirements.txt) file in the [Automate-UAH-Labor-Report](./) directory. 
 
@@ -13,12 +13,12 @@ After, install the packages needed for this project by using the [requirements.t
 
 To Create a Virtual Environment:
 ```
-$ conda create -n yourenvname
+conda create -n yourenvname
 ```
-To Install the Necessrry Packages:
+To Install the Necessary Packages on Root or Virtual Environment:
 
 ```
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 ## Usage
 
@@ -26,15 +26,15 @@ Open the [text file](./edit-this-text-file.txt) in your local directory and repl
 
 ### Template *Before Edits:*
 
-![Template Before Edits](./images-for-read-me/Template.png)
+![Template Before Edits](./images-for-read-me/Template.PNG)
 
 ### Template *After Edits*
-![Template Edits](./images-for-read-me/Template-Edit.png)
+![Template Edits](./images-for-read-me/Template-Edit.PNG)
 
 Save the template edits and navigate to the script file in your terminal. After run the script and input the information that is prompted to you: 
 
 ```
-$ python script.py
+python script.py
 ```
 
 Re-open the now edited excel file and viola! **You now have automated inputing info into your UAH labor report!**
