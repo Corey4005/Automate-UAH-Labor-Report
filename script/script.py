@@ -25,7 +25,7 @@ pos_number = d.get('Posistion Number')
 title = d.get('Title')
 department = d.get('Department')
 org_number = d.get('Organization Number')
-signature = d.get('Signature')
+signature = d.get('Full Name')
 
 #get the workbook
 wb = load_workbook(input_file)
@@ -43,7 +43,7 @@ ws['R6'] = title
 ws['E8'] = department
 ws['C15'] = org_number
 ws['D30'] = signature
-ws['R30'] = date.today().strftime('%d/%m/%y')
+ws['R30'] = date.today().strftime('%m/%d/%y')
         
 #save wb to outputfile location
 output_file = '../excel-data/Labor-Report-2022.xlsx'
