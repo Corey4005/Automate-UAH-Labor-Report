@@ -38,12 +38,3 @@ python script.py
 ```
 
 Re-open the now edited excel file and viola! **You now have automated inputing info into your UAH labor report!**
-
-# Would you like to contribute? 
-
-Here are some things that may be helpful: 
-
-Task-list: 
-- [x] Automated Inputs for UAH Labor Report
-- [ ] Work on Automated Email that sends attached Excel Work from user to boss via smtp server. 
-- [ ] Create functionality that will allow user to write multiple sheets at a time with one command. 
